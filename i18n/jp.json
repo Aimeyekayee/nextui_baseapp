@@ -1,0 +1,178 @@
+{
+    "layout": {
+        "header": {
+            "home": "หน้าหลัก",
+            "login": "ลงชื่อเข้าใช้",
+            "register": "ลงทะเบียน",
+            "profile": "จัดการผู้ใช้"
+        },
+        "menu": {
+            "main": {
+                "register": "ลงทะเบียน",
+                "profile": "จัดการผู้ใช้"
+            },
+            "side": {
+                "home": "หน้าหลัก",
+                "user": "หัวข้อหลัก",
+                "menu": "เมนู",
+                "register": "ลงทะเบียน",
+                "profile": "จัดการผู้ใช้"
+            }
+        }
+    },
+    "page": {
+        "login": {
+            "content": {
+                "facing_problem": "ログイン時に問題が発生しましたか？",
+                "contact_admin": "管理者に連絡する",
+                "or": "または"
+            },
+            "title": {
+                "login": "ログイン",
+                "welcome_header": "おかえりなさい",
+                "welcome_t": "アカウントにログインして続行してください"
+            },
+            "form": {
+                "emp_no": "従業員番号",
+                "emp_no_label": "7桁の従業員番号を入力してください",
+                "password": "パスワード",
+                "password_label": "パスワードを入力してください",
+                "remember": "ログイン状態を保持する"
+            }
+        },
+        "profile": {
+            "title": {
+                "changePassword": "เปลี่ยนรหัสผ่าน"
+            },
+            "tooltip": {
+                "changePassword": "เปลี่ยนรหัสผ่าน",
+                "changePasswordDisable": "กรุณาเพิ่มอีเมลของท่านหรือผู้บังคับบัญชาก่อนเปลี่ยนรหัสผ่าน",
+                "editUserInfo": "แก้ไขข้อมูลผู้ใช้"
+            }
+        },
+        "home": {
+            "header": {
+                "line_1": "人材育成",
+                "line_2": "",
+                "line_3": ""
+            },
+            "accordion": {
+                "accordion_item_1": {
+                    "topic": "E-ラーニング",
+                    "description": "This is E-learning"
+                },
+                "accordion_item_2": {
+                    "topic": "トレーニングの記録",
+                    "description": "This is Training Record"
+                },
+                "accordion_item_3": {
+                    "topic": "Visualize Manufacturing Skills",
+                    "description": "This is Visualize Manufacturing Skills"
+                }
+            }
+        }
+    },
+    "component": {
+        "adminAuthorization": {
+            "title": "ยืนยันสิทธิ์แอดมิน",
+            "placeholder": "ใส่รหัสแอดมิน..."
+        },
+        "changePassword": {
+            "label": {
+                "confirmNewPassword": "ยืนยันรหัสผ่าน",
+                "currentPassword": "รหัสผ่านปัจจุบัน",
+                "newPassword": "รหัสผ่านใหม่"
+            },
+            "placeholder": {
+                "confirmNewPassword": "กรุณาใส่รหัสผ่านให้ตรงกัน",
+                "currentPassword": "กรุณาใส่รหัสผ่านปัจจุบัน",
+                "newPassword": "กรุณาใส่รหัสผ่านใหม่"
+            }
+        },
+        "editUser": {
+            "label": {
+                "username": "ชื่อผู้ใช้",
+                "employeeNo": "รหัสพนักงาน",
+                "position": "ตำแหน่ง",
+                "language": "ตั้งค่าภาษา",
+                "workingShift": "กะการทำงาน",
+                "firstPrimary": "ชื่อ (ภาษาอังกฤษ)",
+                "middlePrimary": "ชื่อกลาง (ภาษาอังกฤษ)",
+                "lastPrimary": "นามสกุล (ภาษาอังกฤษ)",
+                "firstSecondary": "ชื่อ (ภาษาไทย)",
+                "middleSecondary": "ชื่อกลาง (ภาษาไทย)",
+                "lastSecondary": "นามสกุล (ภาษาไทย)",
+                "firstTertiary": "ชื่อ (ภาษาญี่ปุ่น)",
+                "middleTertiary": "ชื่อกลาง (ภาษาญี่ปุ่น)",
+                "lastTertiary": "นามสกุล (ภาษาญี่ปุ่น)",
+                "email": "อีเมล",
+                "emailSupervisor": "อีเมลผู้บังคับบัญชา",
+                "emailManager": "อีเมลผู้จัดการ",
+                "section": "แผนก",
+                "mainLine": "ไลน์หลัก",
+                "concernLine": "ไลน์ที่ดูแล",
+                "telNoPrimary": "โทรศัพท์",
+                "telNoSecondary": "โทรศัพท์ (สำรอง)",
+                "resetConfirm": "ยืนยันว่าต้องการคืนค่าหรือไม่?"
+            },
+            "description": {
+                "resetConfirm": "ข้อมูลจะกลับไปสู่ค่าเริ่มต้น ท่านต้องการยืนยันหรือไม่?"
+            },
+            "tooltip": {
+                "language": "กรุณาเลือกภาษาที่ต้องการตามลำดับ"
+            }
+        },
+        "forgotPassword": {
+            "label": {
+                "credential": "ชื่อผู้ใช้/อีเมล"
+            },
+            "placeholder": {
+                "credential": "ระบุชื่อผู้ใช้หรืออีเมลที่ท่านต้องการล้างรหัสผ่าน"
+            }
+        },
+        "userMenu": {
+            "logOut": "ลงชื่อออก",
+            "profile": "จัดการผู้ใช้"
+        }
+    },
+    "button": {
+        "add": "เพิ่มใหม่",
+        "approve": "อนุมัติ",
+        "cancel": "ยกเลิก",
+        "check": "ตรวจสอบ",
+        "clear": "ล้างค่า",
+        "close": "ปิด",
+        "copy": "คัดลอก",
+        "delete": "ลบ",
+        "edit": "แก้ไข",
+        "fold": "ย่อ/ขยาย เมนู",
+        "login": "ลงชื่อเข้าใช้",
+        "moveDown": "เลื่อนลง",
+        "moveUp": "เลื่อนขึ้น",
+        "no": "ไม่ใช่",
+        "ok": "ตกลง",
+        "refresh": "รีเฟรช",
+        "reject": "ไม่อนุมัติ",
+        "reset": "ล้างค่า",
+        "save": "บันทึก",
+        "search": "ค้นหา",
+        "submit": "ส่ง",
+        "use": "ใช้",
+        "yes": "ใช่"
+    },
+    "message": {
+        "credentialRequired": "กรุณาใส่ชื่อผู้ใช้หรืออีเมล",
+        "emailRequired": "กรุณาใส่อีเมลของท่านหรือผู้บังคับบัญชา",
+        "fieldRequired": "กรุณาใส่ข้อมูล",
+        "passwordRequired": "กรุณาใส่รหัสผ่าน",
+        "updateUserFailure": "แก้ไขข้อมูลผู้ใช้ไม่สำเร็จ",
+        "updateUserSuccess": "แก้ไขข้อมูลผู้ใช้สำเร็จ",
+        "userNotFound": "ไม่พบข้อมูลผู้ใช้",
+        "usernameRequired": "กรุณาใส่ชื่อผู้ใช้",
+        "wrongAdminKey": "รหัสแอดมินผิด"
+    },
+    "LocaleSwitcher": {
+        "label": "เปลี่ยนภาษา",
+        "locale": "{locale, select, en {English} th {ไทย} other {日本語}}"
+    }
+}

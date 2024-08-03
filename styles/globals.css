@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --font-sans: 'Inter', sans-serif;
+  --font-sans-thai: 'Noto Sans Thai', sans-serif;
+  --font-sans-jp: 'Noto Sans JP', sans-serif;
+}
+
+/* Apply default font */
+body {
+  @apply font-sans;
+}
+
+/* Apply Thai font for Thai locale */
+[lang="th"] body {
+  @apply font-thai;
+}
+
+/* Apply Japanese font for Japanese locale */
+[lang="jp"] body {
+  @apply font-jp;
+}

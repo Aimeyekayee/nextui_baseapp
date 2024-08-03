@@ -1,0 +1,147 @@
+{
+  "page": {
+    "login": {
+      "content": {
+        "facing_problem": "พบปัญหาในการเข้าสู่ระบบหรือไม่?",
+        "contact_admin": "ติดต่อผู้ดูแลระบบ",
+        "or": "หรือ"
+      },
+      "title": {
+        "login": "เข้าสู่ระบบ",
+        "welcome_header": "ยินดีต้อนรับ",
+        "welcome_t": "กรุณาเข้าสู่ระบบบัญชีของคุณเพื่อดำเนินการต่อ"
+      },
+      "form": {
+        "emp_no": "รหัสพนักงาน",
+        "emp_no_label": "กรุณากรอกรหัสพนักงาน 7 หลักของคุณ",
+        "password": "รหัสผ่าน",
+        "password_label": "กรุณากรอกรหัสผ่านของคุณ",
+        "remember": "จดจำบัญชีผู้ใช้"
+      }
+    },
+    "home": {
+      "header": {
+        "line_1": "การพัฒนา",
+        "line_2": "ทรัพยากรณ์",
+        "line_3": "มนุษย์"
+      },
+      "accordion": {
+        "accordion_item_1": {
+          "topic": "อี-เลิร์นนิ่ง",
+          "description": "This is E-learning"
+        },
+        "accordion_item_2": {
+          "topic": "บันทึกการฝึกอบรม",
+          "description": "This is Training Record"
+        },
+        "accordion_item_3": {
+          "topic": "Visualize Manufacturing Skills",
+          "description": "This is Visualize Manufacturing Skills"
+        }
+      }
+    }
+  },
+  "component": {
+    "adminAuthorization": {
+      "title": "ยืนยันสิทธิ์แอดมิน",
+      "placeholder": "ใส่รหัสแอดมิน..."
+    },
+    "changePassword": {
+      "label": {
+        "confirmNewPassword": "ยืนยันรหัสผ่าน",
+        "currentPassword": "รหัสผ่านปัจจุบัน",
+        "newPassword": "รหัสผ่านใหม่"
+      },
+      "placeholder": {
+        "confirmNewPassword": "กรุณาใส่รหัสผ่านให้ตรงกัน",
+        "currentPassword": "กรุณาใส่รหัสผ่านปัจจุบัน",
+        "newPassword": "กรุณาใส่รหัสผ่านใหม่"
+      }
+    },
+    "editUser": {
+      "label": {
+        "username": "ชื่อผู้ใช้",
+        "employeeNo": "รหัสพนักงาน",
+        "position": "ตำแหน่ง",
+        "language": "ตั้งค่าภาษา",
+        "workingShift": "กะการทำงาน",
+        "firstPrimary": "ชื่อ (ภาษาอังกฤษ)",
+        "middlePrimary": "ชื่อกลาง (ภาษาอังกฤษ)",
+        "lastPrimary": "นามสกุล (ภาษาอังกฤษ)",
+        "firstSecondary": "ชื่อ (ภาษาไทย)",
+        "middleSecondary": "ชื่อกลาง (ภาษาไทย)",
+        "lastSecondary": "นามสกุล (ภาษาไทย)",
+        "firstTertiary": "ชื่อ (ภาษาญี่ปุ่น)",
+        "middleTertiary": "ชื่อกลาง (ภาษาญี่ปุ่น)",
+        "lastTertiary": "นามสกุล (ภาษาญี่ปุ่น)",
+        "email": "อีเมล",
+        "emailSupervisor": "อีเมลผู้บังคับบัญชา",
+        "emailManager": "อีเมลผู้จัดการ",
+        "section": "แผนก",
+        "mainLine": "ไลน์หลัก",
+        "concernLine": "ไลน์ที่ดูแล",
+        "telNoPrimary": "โทรศัพท์",
+        "telNoSecondary": "โทรศัพท์ (สำรอง)",
+        "resetConfirm": "ยืนยันว่าต้องการคืนค่าหรือไม่?"
+      },
+      "description": {
+        "resetConfirm": "ข้อมูลจะกลับไปสู่ค่าเริ่มต้น ท่านต้องการยืนยันหรือไม่?"
+      },
+      "tooltip": {
+        "language": "กรุณาเลือกภาษาที่ต้องการตามลำดับ"
+      }
+    },
+    "forgotPassword": {
+      "label": {
+        "credential": "ชื่อผู้ใช้/อีเมล"
+      },
+      "placeholder": {
+        "credential": "ระบุชื่อผู้ใช้หรืออีเมลที่ท่านต้องการล้างรหัสผ่าน"
+      }
+    },
+    "userMenu": {
+      "logOut": "ลงชื่อออก",
+      "profile": "จัดการผู้ใช้"
+    }
+  },
+  "button": {
+    "add": "เพิ่มใหม่",
+    "approve": "อนุมัติ",
+    "cancel": "ยกเลิก",
+    "check": "ตรวจสอบ",
+    "clear": "ล้างค่า",
+    "close": "ปิด",
+    "copy": "คัดลอก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "fold": "ย่อ/ขยาย เมนู",
+    "login": "ลงชื่อเข้าใช้",
+    "moveDown": "เลื่อนลง",
+    "moveUp": "เลื่อนขึ้น",
+    "no": "ไม่ใช่",
+    "ok": "ตกลง",
+    "refresh": "รีเฟรช",
+    "reject": "ไม่อนุมัติ",
+    "reset": "ล้างค่า",
+    "save": "บันทึก",
+    "search": "ค้นหา",
+    "submit": "ส่ง",
+    "use": "ใช้",
+    "yes": "ใช่"
+  },
+  "message": {
+    "credentialRequired": "กรุณาใส่ชื่อผู้ใช้หรืออีเมล",
+    "emailRequired": "กรุณาใส่อีเมลของท่านหรือผู้บังคับบัญชา",
+    "fieldRequired": "กรุณาใส่ข้อมูล",
+    "passwordRequired": "กรุณาใส่รหัสผ่าน",
+    "updateUserFailure": "แก้ไขข้อมูลผู้ใช้ไม่สำเร็จ",
+    "updateUserSuccess": "แก้ไขข้อมูลผู้ใช้สำเร็จ",
+    "userNotFound": "ไม่พบข้อมูลผู้ใช้",
+    "usernameRequired": "กรุณาใส่ชื่อผู้ใช้",
+    "wrongAdminKey": "รหัสแอดมินผิด"
+  },
+  "LocaleSwitcher": {
+    "label": "เปลี่ยนภาษา",
+    "locale": "{locale, select, en {English} th {ไทย} other {日本語}}"
+  }
+}
