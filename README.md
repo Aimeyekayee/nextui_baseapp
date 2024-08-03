@@ -11,8 +11,12 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [TypeScript](https://www.typescriptlang.org/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
+- [Zod TypeScript-first schema validation with static type inference ]([https://github.com/pacocoursey/next-themes](https://zod.dev/))
+- [React-hot-toast](https://react-hot-toast.com/)
+- [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
 
-## How to Use
+  
+## Custom Hook
 
 ### Use the template with create-next-app
 
