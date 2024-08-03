@@ -29,7 +29,39 @@ const MyComponent = () => {
   return <div>Protected Content</div>;
 };
 ```
+### useAuthRedirect
 
+The useContenti18n hook provides internationalized content for the application, specifically for any sections, use the following command on you page that want to use:
+
+```bash
+import useContenti18n from "@/hooks/useContenti18n";
+const MyComponent = () => {
+  const { faqs } = useContenti18n();
+  return (
+    <div>
+      {faqs.map((faq, index) => (
+        <Accordion key={index} title={faq.title} content={faq.content} />
+      ))}
+    </div>
+  );
+};
+```
+### useDebounce
+
+The useDebounce hook delays the update of a value by a specified amount of time, useful for handling fast-changing input data, use the following command on you component to handle:
+
+```bash
+import { useDebounce } from "@/hooks/useDebounce";
+const MyComponent = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const debouncedSearchTerm = useDebounce(searchTerm, 500);
+
+  useEffect(() => {
+    // Perform search with debouncedSearchTerm
+  }, [debouncedSearchTerm]);
+  return <input value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />;
+};
+```
 
 
 
