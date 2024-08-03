@@ -16,9 +16,9 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
 
   
-## Custom Hook
+## Project setup
 
-### useAuthRedirect()
+### Template Creation
 
 To create a new project based on this template using `create-next-app`, run the following command:
 
