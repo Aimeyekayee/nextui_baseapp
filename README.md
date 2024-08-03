@@ -29,7 +29,7 @@ const MyComponent = () => {
   return <div>Protected Content</div>;
 };
 ```
-### useAuthRedirect
+### useContenti18n
 
 The useContenti18n hook provides internationalized content for the application, specifically for any sections, use the following command on you page that want to use:
 
