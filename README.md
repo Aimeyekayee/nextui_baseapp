@@ -23,7 +23,11 @@ This is a template for creating applications using Next.js 14 (app directory) an
 The useAuthRedirect hook manages user authentication and redirects unauthorized users to a specified login page, use the following command on you page that want authenticate:
 
 ```bash
-useAuthRedirect();
+import { useAuthRedirect } from "@/hooks/useAuthRedirect";
+const MyComponent = () => {
+  useAuthRedirect();
+  return <div>Protected Content</div>;
+};
 ```
 
 
