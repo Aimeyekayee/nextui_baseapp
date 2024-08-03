@@ -15,6 +15,21 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [React-hot-toast](https://react-hot-toast.com/)
 - [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
 
+
+## Custom Hook
+
+### useAuthRedirect
+
+The useAuthRedirect hook manages user authentication and redirects unauthorized users to a specified login page, use the following command on you page that want authenticate:
+
+```bash
+useAuthRedirect();
+```
+
+
+
+
+
   
 ## Project setup
 
